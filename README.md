@@ -1,8 +1,9 @@
-# Análisis inicial de señales de giro de una mano mediante IMU
+# Análisis inicial de señales de giro  mediante IMU
 
 **Asignatura:** Teoría de Señales  
 **Proyecto:** 7 - Movimiento humano con IMU  
 **Integrantes:** Cristian Camilo Marín García y Senjasse Ocampo Ocampo
+**Link** https://github.com/senjasseocampo/proyecto-teoria-senales-imu
 
 ## 1. Descripción
 
@@ -17,13 +18,13 @@ Generar computacionalmente señales de velocidad angular correspondientes a los 
 
 ## 3. Procedencia y modelo de las señales
 
-Las señales utilizadas en esta entrega son **simuladas** y se generan con `src/python/generar_datos_demo.py`. No corresponden todavía a mediciones físicas del MPU6050.
+Las señales utilizadas en esta entrega son **simuladas** y se generan con : src/python/generar_datos_demo.py. No corresponden todavía a mediciones físicas del MPU6050.
 
 Cada archivo contiene:
 
-```text
+
 tiempo_ms,gx_dps,gy_dps,gz_dps,estado
-```
+
 
 Las unidades de los tres canales son grados por segundo (`°/s`). Para simular un giro, el eje principal recibe una oscilación limitada por una envolvente temporal. Los demás ejes presentan variaciones pequeñas que representan acoplamiento entre ejes. A todos los canales se agrega ruido gaussiano de media cero y desviación estándar aproximada de `1,2 °/s`.
 
@@ -65,7 +66,7 @@ En los movimientos verticales, el canal `gx` presenta la mayor variación; en lo
 
 Para cada archivo y canal se calculan el número de muestras, duración, frecuencia de muestreo estimada, mínimo, máximo, media, desviación estándar, amplitud pico a pico, máximo absoluto y RMS.
 
-La tabla se guarda en `results/demo/caracteristicas.csv`. En el canal asociado con cada movimiento se esperan valores de RMS y máximo absoluto superiores a los observados en los otros canales. La media y el signo de la señal ayudan a diferenciar arriba de abajo e izquierda de derecha.
+La tabla se guarda en : results/demo/caracteristicas.csv. En el canal asociado con cada movimiento se esperan valores de RMS y máximo absoluto superiores a los observados en los otros canales. La media y el signo de la señal ayudan a diferenciar arriba de abajo e izquierda de derecha.
 
 
 ## 7. Ruido y degradación
