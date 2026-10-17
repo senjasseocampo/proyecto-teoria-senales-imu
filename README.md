@@ -112,7 +112,7 @@ Detección de Movimiento (Simulación):Detección de presencia/movimiento y acti
 
 - Ben-Sadoun, G., Michel, E., Annweiler, C., & Sacco, G. (2022).Human Fall Detection Using Passive Infrared Sensors with Low Resolution: A Systematic Review. Clinical Interventions in Aging, 17, 35–53. https://doi.org/10.2147/CIA.S329668
 
-- Erman, Z. (2017). Kontrol Keseimbangan Dengan Menggunakan Sensor MPU 6050 Berbasis Arduino (Doctoral dissertation, POLITEKNIK NEGERI SRIWIJAYA).
+- Erman, Z. (2017). Kontrol Keseimbangan Dengan Menggunakan Sensor MPU 6050 Berbasis Arduino. http://eprints.polsri.ac.id/id/eprint/4653
 
 - Romero, J. P., & Pérez, M. A. (2021). Caracterización de señales inerciales y estimación de movimiento mediante IMU. Universidad Politécnica de Madrid (TFG / Documento técnico)
 
