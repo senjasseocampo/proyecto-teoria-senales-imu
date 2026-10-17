@@ -84,10 +84,8 @@ Esta visualización es exploratoria. Los movimientos simulados son lentos, por l
 
 ## 9. Resultados actuales
 
-revisar
-revisar
-revisar
-La implementación genera cuatro CSV reproducibles y sus gráficas temporales y frecuenciales. Los resultados permiten distinguir visual y numéricamente arriba, abajo, izquierda y derecha mediante el canal dominante y el signo de la señal. Con ello se cumple la evidencia mínima de disponer de señales IMU simuladas, documentar los ejes y la frecuencia de muestreo, comparar más de dos movimientos y segmentar ventanas para obtener características temporales.
+La implementación genera cuatro archivos CSV de señales simuladas y consolida los resultados en un archivo general de características con 12 registros (results/demo/caracteristicas.csv), correspondientes a la evaluación independiente de los tres canales (g_x, g_y, g_z) para cada uno de los cuatro movimientos. Adicionalmente, se exportan las respectivas gráficas temporales y espectrales, así como el desglose de ventanas temporales. Los resultados permiten distinguir visual y numéricamente arriba, abajo, izquierda y derecha mediante el análisis del canal dominante y el signo de la señal. Con ello se cumple la evidencia mínima de disponer de señales IMU estructuradas, documentar los ejes y la frecuencia de muestreo, comparar más de dos movimientos y segmentar ventanas para obtener características temporales.
+
 
 ## 10 Prueba de Concepto en Tinkercad:https://www.tinkercad.com/things/09uKnNxbo6n-sensor-de-movimiento?sharecode=yr9WnxWgo57r_TvEsSH8rz5syVb3sUC91LICWIlytBA
 
@@ -112,5 +110,12 @@ Detección de Movimiento (Simulación):Detección de presencia/movimiento y acti
 
 - InvenSense. (2013). *MPU-6000 and MPU-6050 Product Specification, Revision 3.4*. TDK InvenSense. https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
 
--Ben-Sadoun, G., Michel, E., Annweiler, C., & Sacco, G. (2022).Human Fall Detection Using Passive Infrared Sensors with Low Resolution: A Systematic Review. Clinical Interventions in Aging, 17, 35–53. https://doi.org/10.2147/CIA.S329668
+- Ben-Sadoun, G., Michel, E., Annweiler, C., & Sacco, G. (2022).Human Fall Detection Using Passive Infrared Sensors with Low Resolution: A Systematic Review. Clinical Interventions in Aging, 17, 35–53. https://doi.org/10.2147/CIA.S329668
 
+- Erman, Z. (2017). Kontrol Keseimbangan Dengan Menggunakan Sensor MPU 6050 Berbasis Arduino (Doctoral dissertation, POLITEKNIK NEGERI SRIWIJAYA).
+
+- Romero, J. P., & Pérez, M. A. (2021). Caracterización de señales inerciales y estimación de movimiento mediante IMU. Universidad Politécnica de Madrid (TFG / Documento técnico)
+
+- PrograMate. (2020, agosto 20). Sensor de Movimiento PIR en Arduino - Simulación en TINKERCAD
+
+- ElectroLabEducativaEle ctrónica. (2025, septiembre 2). Transformada Rápida de Fourier (FFT): Espectro de Frecuencia, Ondas y Ruido Blanco. YouTube. https://youtu.be/MNUSVadSwgk
