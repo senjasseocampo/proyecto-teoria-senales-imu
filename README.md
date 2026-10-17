@@ -89,10 +89,28 @@ revisar
 revisar
 La implementación genera cuatro CSV reproducibles y sus gráficas temporales y frecuenciales. Los resultados permiten distinguir visual y numéricamente arriba, abajo, izquierda y derecha mediante el canal dominante y el signo de la señal. Con ello se cumple la evidencia mínima de disponer de señales IMU simuladas, documentar los ejes y la frecuencia de muestreo, comparar más de dos movimientos y segmentar ventanas para obtener características temporales.
 
-.
+## 10 Prueba de Concepto en Tinkercad:https://www.tinkercad.com/things/09uKnNxbo6n-sensor-de-movimiento?sharecode=yr9WnxWgo57r_TvEsSH8rz5syVb3sUC91LICWIlytBA
 
-## 10. Referencias
+
+Como propuesta inicial y soporte al desarrollo del proyecto, se diseñó un montaje preliminar en Tinkercad para validar la lógica básica de detección de movimiento mediante un sensor infrarrojo pasivo PIR y la activación de indicadores visualesLED.
+
+Componentes Utilizados:
+
+Arduino UNO
+Sensor de Movimiento PIR (Conectado al pin digital 4)
+Diodo LED e Indicador Visual (Conectado al pin digital 5)
+Resistencia de Protección (330 Ω)
+Protoboard y Cableado
+
+Evidencia de funcionamiento:
+
+Estado de Reposo (Sin Movimiento):Sensor PIR en estado de espera y LED apagado  
+Detección de Movimiento (Simulación):Detección de presencia/movimiento y activación del LED.
+
+
+## 11. Referencias
 
 - InvenSense. (2013). *MPU-6000 and MPU-6050 Product Specification, Revision 3.4*. TDK InvenSense. https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
 
+-Ben-Sadoun, G., Michel, E., Annweiler, C., & Sacco, G. (2022).Human Fall Detection Using Passive Infrared Sensors with Low Resolution: A Systematic Review. Clinical Interventions in Aging, 17, 35–53. https://doi.org/10.2147/CIA.S329668
 
